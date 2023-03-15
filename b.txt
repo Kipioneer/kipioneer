@@ -1,1 +1,54 @@
-modified
+#Git 기본 사용 as Team
+
+#팀장맨
+# repository 만들기 
+# 폴더 만들고 파일 만들기 
+#git init 
+#git add . 
+#git status
+#git commit -m "firstcompanyproject"  "" 쓰고싶은말 쓰면됨
+#git remote~ 주소 https:// 시작
+#git push origin master
+# 사이트 들어가서 settings- collaborators - add people 하믄됨
+
+#팀원맨
+#C drive 가서 폴더를 하나 만든다 (company) init 하면 안됨
+#프로젝트 들어가서 code 들어가서 code 눌러서 https 링크 복사
+
+#cmd 창을 연다 
+#만든 폴더로 들어간다 (아래)
+# cd.. cd.. 해서 c drive 가서 cd company로 이동
+# git clone 주소를 추가(복사했던 주소) 
+# git clone 주소 붙이고 freshman 을 붙인다 # freshman 붙인거는 폴더를 새로 하나 만든거임
+# dir
+
+#이거하고 뭔가 다시함
+#cd freshman 으로 들어간다
+#code. 
+#안 열리면 폴더들어가서 파이참으로 키면된다
+# 파일 수정하고 save
+# git add .
+# git status
+# git commit -m "freshman first commit"
+# git push origin 마스터 하지말고 
+# git checkout -b freshman
+# git push origin freshman
+
+
+#팀장맨
+#confirm merge 누르고 변경된지 확인
+#기존 하던거에 
+# 추가하여 수정한다
+# git add.
+# git commit -m "커밋할 이름"
+
+#merge 안되면 request 한번 더 ? 
+#아니믄 그냥 그 위에 아이디랑 이상한 줄 지우면됨
+
+#코드 가져올 때
+#git pull origin master
+#로컬에서 폻더 열어보면 팀원들의 코드가 같이 열림
+
+#새코드 업로드
+#git add 
+#git commit -m '커밋할 이름 '
